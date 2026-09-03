@@ -1,0 +1,775 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10171F">
+<meta name="description" content="Kreator is a slow-craft digital studio building high-end brand identities, custom websites and sustainable growth systems for digital nomads, adventure creators and remote founders.">
+<meta property="og:title" content="Kreator — Slow-Craft Digital Studio">
+<meta property="og:description" content="Crafted, not generated. Digital ecosystems for those who live wild and work free.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/hero.jpg">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<title>Kreator — Slow-Craft Digital Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<svg class="defs"  aria-hidden="true">
+  <filter id="mblur" x="-25%" y="-60%" width="150%" height="220%" color-interpolation-filters="sRGB">
+    <feGaussianBlur id="mblurG" in="SourceGraphic" stdDeviation="0 0" edgeMode="duplicate"/>
+  </filter>
+<symbol id="n-sun" viewBox="0 0 32 32"><circle cx="16" cy="16" r="6.5" fill="currentColor"/>
+<g stroke="currentColor" stroke-width="2.6"><path d="M16 1v4M16 27v4M1 16h4M27 16h4"/>
+<path d="M5.4 5.4l2.8 2.8M23.8 23.8l2.8 2.8M26.6 5.4l-2.8 2.8M8.2 23.8l-2.8 2.8"/></g></symbol>
+<symbol id="n-sunset" viewBox="0 0 32 32"><path d="M6 23a10 10 0 0 1 20 0z" fill="currentColor"/>
+<g stroke="currentColor" stroke-width="2.6"><path d="M1 27h9M14 27h4M22 27h9M16 2v5M4.5 8.5l3 3M27.5 8.5l-3 3"/></g></symbol>
+<symbol id="n-pine" viewBox="0 0 32 32"><path d="M16 2l6 10h-12zM16 9l8.5 11h-17zM16 16l11 12h-22z" fill="currentColor"/>
+<path d="M14.5 27h3v4h-3z" fill="currentColor"/></symbol>
+<symbol id="n-forest" viewBox="0 0 32 32"><path d="M9 6l5 8H4zM9 11l7 9H2z" fill="currentColor"/>
+<path d="M7.6 19h2.8v6H7.6z" fill="currentColor"/>
+<path d="M22 10l4.5 7h-9zM22 15l6.5 8h-13z" fill="currentColor"/>
+<path d="M20.8 22h2.4v5h-2.4z" fill="currentColor"/>
+<path d="M2 28h28" stroke="currentColor" stroke-width="2"/></symbol>
+<symbol id="n-cloud" viewBox="0 0 32 32"><circle cx="11" cy="16" r="6" fill="currentColor"/>
+<circle cx="20" cy="13.5" r="8" fill="currentColor"/>
+<rect x="5" y="16" width="23" height="6" fill="currentColor"/>
+<path d="M4 27h11M19 27h9" stroke="currentColor" stroke-width="2.6"/></symbol>
+<symbol id="n-mountain" viewBox="0 0 32 32"><path d="M2 27L12 8l5.5 10.5L21 12l9 15z" fill="currentColor"/>
+<path d="M8.4 17.2L12 10.5l3.6 6.7-3.6-2z" fill="var(--ink)" opacity=".55"/></symbol>
+<symbol id="n-stag" viewBox="0 0 32 32"><circle cx="16" cy="22.5" r="7" fill="currentColor"/>
+<g stroke="currentColor" stroke-width="2.8" fill="none">
+<path d="M12 16L7.5 9M7.5 9H3M7.5 9V4M20 16l4.5-7M24.5 9H29M24.5 9V4"/></g></symbol>
+<symbol id="n-wolf" viewBox="0 0 32 32"><g stroke="currentColor" stroke-width="2.8" fill="none" stroke-linejoin="miter">
+<path d="M6 11V3l5.5 5M26 11V3l-5.5 5M6 11l10 18 10-18"/></g>
+<circle cx="12" cy="15" r="1.8" fill="currentColor"/>
+<circle cx="20" cy="15" r="1.8" fill="currentColor"/></symbol>
+<symbol id="n-bird" viewBox="0 0 32 32"><path d="M2 19c5.5 0 9-4.5 12-9 3 4.5 6.5 9 12 9" stroke="currentColor"
+stroke-width="3" fill="none"/><circle cx="16" cy="24" r="2.4" fill="currentColor"/></symbol>
+<symbol id="n-bear" viewBox="0 0 32 32"><circle cx="7.5" cy="9" r="4.5" fill="currentColor"/>
+<circle cx="24.5" cy="9" r="4.5" fill="currentColor"/>
+<circle cx="16" cy="19" r="10" fill="currentColor"/>
+<circle cx="12.5" cy="17" r="1.8" fill="var(--ink)"/>
+<circle cx="19.5" cy="17" r="1.8" fill="var(--ink)"/></symbol>
+<symbol id="n-moon" viewBox="0 0 32 32"><path d="M20 2a14 14 0 1 0 0 28 15 15 0 0 1 0-28z" fill="currentColor"/></symbol>
+<symbol id="n-river" viewBox="0 0 32 32"><g stroke="currentColor" stroke-width="2.8" fill="none">
+<path d="M2 11c5-5 8 5 13 0s8 5 13 0"/><path d="M2 21c5-5 8 5 13 0s8 5 13 0"/></g></symbol>
+<symbol id="n-arrow" viewBox="0 0 32 32"><path d="M4 16h22M19 8l8 8-8 8" stroke="currentColor" stroke-width="2.2" fill="none"/></symbol>
+  <symbol id="kreator" viewBox="0 0 1916 424">
+    <g transform="translate(0,424) scale(0.1,-0.1)" fill="currentColor"><path d="M31 4186 c-8 -10 -11 -531 -11 -2031 0 -1861 1 -2020 17 -2037 15 -17 46 -18 543 -18 472 0 529 2 534 16 3 9 6 337 6 730 0 565 3 716 13 719 7 3 331 -314 742 -724 l730 -729 409 -6 c225 -3 707 -6 1072 -6 589 0 664 2 678 16 14 14 16 98 16 777 0 509 4 781 11 821 13 72 42 135 87 193 72 91 232 155 416 168 44 4 91 8 104 11 l22 4 0 389 c0 440 3 421 -76 421 -68 0 -235 -29 -258 -46 -11 -7 -28 -14 -37 -14 -24 0 -161 -93 -197 -134 -16 -19 -46 -59 -67 -90 -56 -85 -59 -83 -55 67 1 65 -2 102 -10 112 -11 13 -68 15 -374 15 -268 0 -365 -3 -374 -12 -9 -9 -12 -317 -12 -1325 0 -1043 -3 -1315 -13 -1318 -11 -5 -1799 1773 -1818 1808 -6 10 123 145 456 478 266 265 465 471 465 482 0 17 -33 17 -670 15 l-670 -3 -282 -282 c-155 -156 -288 -283 -295 -283 -10 0 -13 178 -15 913 l-3 912 -536 3 c-446 2 -538 0 -548 -12z M12330 3710 l-235 -5 -3 -1789 c-1 -1314 1 -1792 9 -1802 9 -11 61 -14 250 -14 225 0 239 1 249 19 7 13 10 377 10 1109 0 1007 1 1090 17 1096 9 4 104 6 211 6 106 -1 197 1 200 5 4 4 8 107 10 229 2 180 0 225 -11 234 -9 8 -83 12 -218 14 l-204 3 -5 445 c-3 245 -7 446 -8 446 -11 7 -71 8 -272 4z M6717 2885 c-48 -7 -106 -20 -128 -29 -21 -9 -48 -16 -59 -16 -11 0 -41 -10 -67 -21 -98 -43 -138 -62 -153 -71 -8 -4 -26 -14 -40 -20 -56 -27 -98 -56 -205 -142 -132 -105 -251 -246 -328 -389 -20 -36 -40 -74 -46 -84 -23 -43 -51 -110 -51 -124 0 -8 -7 -27 -15 -43 -9 -16 -22 -57 -29 -90 -8 -34 -20 -81 -27 -106 -8 -30 -13 -123 -13 -280 -1 -214 1 -244 23 -335 33 -139 78 -272 114 -340 6 -11 19 -38 30 -60 46 -94 138 -216 242 -321 97 -98 191 -174 214 -174 4 0 16 -9 26 -20 10 -11 26 -20 35 -20 9 0 25 -9 35 -20 10 -11 25 -20 34 -20 9 0 34 -9 56 -19 100 -47 134 -61 154 -61 12 0 37 -6 56 -14 88 -37 463 -53 660 -28 97 12 257 57 328 93 9 5 26 14 37 19 173 87 219 118 373 256 l102 91 3 388 c1 214 -2 393 -6 397 -5 5 -71 -54 -148 -130 -126 -125 -166 -158 -297 -243 -67 -44 -286 -149 -311 -149 -7 0 -42 -9 -77 -20 -81 -26 -282 -37 -393 -21 -107 15 -223 72 -304 149 -19 18 -21 26 -12 37 7 8 20 15 29 15 9 0 27 9 41 20 14 11 32 20 41 20 9 0 24 9 34 20 10 11 25 20 32 20 8 0 26 9 40 20 14 11 34 20 44 20 10 0 21 5 24 10 3 6 23 18 43 28 99 49 193 100 207 113 5 5 16 9 25 9 8 0 26 9 40 20 14 11 32 20 41 20 9 0 22 6 28 14 10 12 55 36 131 70 8 4 33 18 55 31 22 14 51 30 65 36 14 6 32 15 40 20 8 5 31 17 50 27 19 10 46 24 60 32 36 19 60 31 102 52 20 10 40 22 43 28 3 5 14 10 23 10 9 0 28 9 42 20 14 11 32 20 41 20 9 0 22 6 28 14 10 12 55 36 131 70 8 4 33 18 55 31 22 14 51 30 65 36 14 6 32 15 40 20 8 5 31 17 50 27 83 45 93 51 101 64 5 7 6 24 3 38 -7 35 -67 180 -97 235 -6 11 -17 34 -25 50 -100 204 -365 462 -579 563 -10 5 -37 18 -60 30 -23 12 -48 22 -55 22 -7 1 -31 9 -53 20 -22 11 -48 19 -57 20 -10 0 -37 7 -61 15 -121 41 -439 56 -620 30z m386 -685 c38 -6 78 -17 90 -25 12 -8 31 -15 42 -15 11 0 31 -9 45 -20 14 -11 29 -20 34 -20 15 0 106 -81 106 -95 0 -15 -70 -65 -92 -65 -9 0 -20 -5 -23 -10 -3 -6 -23 -18 -43 -28 -20 -10 -48 -24 -62 -32 -14 -7 -33 -17 -44 -23 -10 -5 -33 -17 -51 -27 -34 -19 -68 -37 -99 -53 -10 -5 -33 -17 -51 -27 -51 -29 -69 -38 -85 -45 -8 -3 -33 -17 -55 -30 -22 -14 -51 -30 -65 -36 -14 -6 -32 -15 -40 -20 -8 -5 -31 -17 -50 -27 -19 -10 -45 -24 -57 -30 -13 -7 -33 -17 -44 -23 -12 -6 -36 -19 -54 -29 -18 -10 -43 -24 -56 -31 -24 -12 -32 -16 -83 -45 -44 -25 -51 -9 -49 114 1 84 7 123 27 182 49 147 121 253 224 332 78 59 86 63 182 105 68 30 232 40 353 23z M9795 2871 c-170 -28 -290 -59 -372 -97 -17 -7 -37 -14 -45 -14 -8 0 -18 -4 -23 -9 -6 -5 -41 -26 -80 -46 -38 -21 -72 -41 -75 -44 -3 -4 -32 -24 -65 -45 -108 -70 -301 -281 -367 -402 -5 -8 -12 -22 -18 -31 -36 -66 -63 -123 -83 -176 -43 -115 -49 -132 -59 -177 -5 -25 -17 -74 -25 -110 -21 -84 -30 -410 -14 -500 20 -116 39 -194 66 -265 14 -38 31 -83 37 -100 6 -16 19 -42 30 -57 10 -14 18 -33 18 -41 0 -8 7 -20 15 -27 9 -7 22 -27 30 -44 21 -45 143 -192 206 -251 97 -89 181 -155 197 -155 5 0 15 -7 22 -15 7 -8 24 -21 39 -28 14 -7 35 -18 46 -24 11 -5 29 -14 40 -20 11 -5 29 -15 40 -20 59 -31 194 -76 325 -109 84 -21 409 -31 500 -15 139 24 263 61 313 94 15 9 31 17 36 17 39 0 223 151 294 241 34 43 69 77 77 76 12 -2 14 -28 11 -169 -2 -109 1 -173 8 -187 11 -20 18 -21 249 -21 172 0 241 3 250 12 9 9 12 322 12 1349 l0 1337 -22 6 c-13 3 -125 6 -249 6 -184 0 -229 -3 -238 -14 -9 -10 -12 -64 -10 -176 1 -88 -1 -163 -4 -166 -2 -3 -29 22 -58 56 -54 62 -213 195 -259 218 -14 6 -32 16 -40 22 -24 15 -108 50 -122 50 -7 1 -31 9 -53 20 -22 11 -51 20 -65 20 -14 0 -50 7 -80 15 -64 18 -357 28 -435 16z m419 -492 c32 -11 65 -19 72 -19 12 0 89 -31 124 -51 109 -60 157 -95 221 -158 67 -68 169 -204 169 -227 0 -5 9 -20 20 -34 11 -14 20 -32 20 -40 0 -8 7 -28 15 -44 14 -27 36 -110 55 -216 25 -130 -4 -379 -55 -476 -8 -16 -15 -36 -15 -44 0 -8 -9 -26 -20 -40 -11 -14 -20 -28 -20 -32 -1 -22 -109 -164 -171 -224 -114 -109 -243 -186 -393 -233 -127 -40 -412 -38 -491 3 -17 9 -38 16 -47 16 -16 0 -80 28 -118 51 -8 5 -28 16 -45 25 -83 46 -225 179 -287 269 -52 76 -128 229 -128 259 0 9 -7 33 -16 54 -24 57 -36 230 -24 341 10 94 23 141 66 256 76 202 253 400 439 492 11 5 39 19 62 31 23 12 49 22 57 22 8 0 37 7 63 17 104 36 336 37 447 2z M14475 2830 c-140 -24 -222 -43 -247 -56 -15 -8 -34 -14 -43 -14 -14 0 -58 -20 -115 -52 -8 -4 -26 -13 -40 -19 -27 -12 -29 -13 -110 -60 -166 -96 -403 -348 -487 -519 -7 -14 -17 -32 -22 -40 -17 -29 -51 -107 -51 -119 0 -6 -9 -28 -20 -48 -11 -21 -20 -47 -20 -58 -1 -11 -7 -38 -15 -60 -22 -60 -45 -246 -45 -365 0 -116 22 -283 44 -345 8 -22 15 -48 16 -57 0 -28 75 -191 133 -293 75 -129 195 -267 322 -368 95 -76 134 -104 175 -124 14 -7 32 -17 40 -22 8 -5 26 -14 40 -20 14 -6 32 -15 40 -19 152 -88 404 -138 640 -129 200 8 358 48 550 141 65 32 101 52 155 89 22 15 57 39 79 53 67 45 249 237 308 325 60 90 135 233 163 309 83 230 106 546 54 752 -10 43 -19 85 -19 95 -1 10 -9 36 -20 58 -11 22 -19 48 -20 58 0 10 -10 37 -22 60 -12 23 -25 50 -30 60 -25 52 -69 127 -97 167 -17 25 -39 56 -48 70 -62 91 -219 241 -337 319 -70 46 -111 71 -126 77 -14 5 -28 12 -67 34 -67 36 -194 77 -313 102 -106 22 -361 32 -445 18z m385 -330 c34 -11 71 -20 81 -20 10 0 38 -9 61 -19 24 -10 54 -24 68 -30 14 -6 33 -15 43 -21 30 -18 51 -29 87 -49 58 -32 187 -148 253 -228 34 -41 64 -80 66 -87 2 -6 9 -18 16 -26 7 -8 23 -37 37 -65 103 -204 141 -404 119 -621 -7 -66 -22 -148 -33 -184 -32 -98 -77 -211 -99 -245 -10 -16 -24 -41 -31 -55 -15 -31 -78 -110 -137 -174 -125 -132 -312 -247 -461 -281 -30 -7 -73 -18 -95 -24 -49 -13 -294 -14 -350 -1 -110 25 -170 43 -189 56 -11 8 -29 14 -39 14 -10 0 -31 8 -45 18 -15 10 -34 22 -42 25 -16 7 -65 37 -126 78 -51 35 -203 192 -240 248 -71 108 -94 152 -126 241 -48 134 -61 202 -65 345 -7 180 22 333 88 470 10 22 19 48 19 57 0 9 4 19 9 22 5 4 25 34 45 69 65 114 246 303 336 351 52 27 105 58 115 67 5 5 18 9 30 9 11 0 30 6 41 14 18 13 71 29 184 55 19 5 99 9 176 10 116 1 153 -3 204 -19z M17535 2830 c-129 -19 -267 -59 -318 -93 -15 -9 -29 -17 -32 -17 -11 0 -71 -45 -118 -90 -49 -46 -100 -113 -111 -147 -4 -10 -18 -26 -31 -36 l-25 -18 0 160 c0 148 -1 161 -19 171 -28 15 -304 13 -319 -2 -16 -16 -18 -2609 -2 -2639 10 -17 23 -19 160 -19 122 0 151 3 164 16 14 14 16 99 16 787 1 580 4 799 14 882 29 240 119 396 310 539 27 20 54 36 60 36 6 0 22 9 36 20 14 11 33 20 43 20 10 0 31 7 46 15 16 8 64 22 107 31 44 9 94 22 112 29 l32 14 0 169 c0 202 8 191 -125 172z M18388 843 c-17 -4 -18 -30 -18 -362 0 -264 3 -360 12 -369 14 -14 723 -18 732 -3 3 4 6 169 6 366 1 286 -1 360 -12 366 -13 9 -688 10 -720 2z"/></g>
+  </symbol>
+</svg>
+
+<div class="grain"></div>
+<div id="progress"></div>
+<div id="ring"></div>
+<div id="cur"><div class="dot"></div></div>
+
+<div id="loader">
+  <svg class="mark" viewBox="0 0 1916 424"><use href="#kreator"/></svg>
+  <div class="bar"><i></i></div>
+  <div class="pct">000</div>
+</div>
+<div id="curtain"></div>
+
+<header id="hdr">
+  <nav class="nav">
+    <a class="brand" href="#top" data-cursor>
+      <svg class="mark" viewBox="0 0 1916 424"><use href="#kreator"/></svg>
+      <small>Slow-craft<br>digital studio</small>
+    </a>
+    <div class="navlinks">
+      <a href="#manifesto" data-cursor>Manifesto</a>
+      <a href="#partner" data-cursor>Partner</a>
+      <a href="#process" data-cursor>Process</a>
+      <a href="#work" data-cursor>Work</a>
+      <a href="#guild" data-cursor>Guild</a>
+    </div>
+    <a class="btn magnet" href="#cta" data-cursor>
+      <span>Start a project</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg>
+    </a>
+  </nav>
+</header>
+
+<main id="top">
+<div id="home">
+
+<!-- ================= HERO ================= -->
+<section id="hero">
+  <div class="bg" data-parallax="0.22"><img src="assets/img/hero.jpg" alt=""></div>
+  <div class="veil"></div>
+  <div class="deco deco-hero" data-parallax="-0.06"><svg viewBox="0 0 460 460" fill="none" aria-hidden="true">
+  <g class="rays" stroke="currentColor" stroke-width="1.4" opacity=".55">
+    <circle cx="230" cy="230" r="228" stroke-dasharray="3 13"/>
+    <circle cx="230" cy="230" r="182"/>
+    <path d="M230 2v56M230 402v56M2 230h56M402 230h56"/>
+    <path d="M69 69l40 40M351 351l40 40M391 69l-40 40M109 351l-40 40"/>
+    <circle cx="230" cy="2" r="6" fill="currentColor" stroke="none"/>
+  </g>
+  <circle cx="230" cy="230" r="118" stroke="currentColor" stroke-width="1.4" opacity=".5"/>
+  <path d="M136 268a94 94 0 0 1 188 0z" fill="currentColor" opacity=".14"/>
+  <path d="M60 268h340" stroke="currentColor" stroke-width="1.4" opacity=".45"/>
+  <g fill="currentColor" opacity=".32"><path d="M120.0 224.0L128.3 243.8H111.7ZM120.0 236.3L133.4 256.1H106.6ZM120.0 248.6L138.5 268.4H101.5ZM118.5 265.4h3v5.6h-3z"/><path d="M152.0 240.0L157.3 252.6H146.7ZM152.0 247.8L160.5 260.4H143.5ZM152.0 255.7L163.8 268.3H140.2ZM150.5 266.3h3v4.7h-3z"/><path d="M320.0 232.0L326.8 248.2H313.2ZM320.0 242.1L331.0 258.3H309.0ZM320.0 252.2L335.1 268.4H304.9ZM318.5 265.8h3v5.2h-3z"/><path d="M348.0 246.0L352.2 255.9H343.8ZM348.0 252.2L354.7 262.1H341.3ZM348.0 258.3L357.2 268.2H338.8ZM346.5 266.7h3v4.3h-3z"/></g>
+</svg></div>
+  <div class="inner wrap">
+    <div class="h-eyebrow rv">
+      <span class="eyebrow"><svg class="gi" aria-hidden="true"><use href="#n-sunset"/></svg>Brand systems · Custom web · Quiet growth</span>
+      <span class="ln"></span>
+      <span class="label">Est. Worldwide</span>
+    </div>
+
+    <h1 class="display mb" id="heroTitle">
+      <span class="ln"><span>Crafted,</span></span>
+      <span class="ln"><span class="orange">not generated.</span></span>
+    </h1>
+
+    <div class="hero-grid">
+      <div>
+        <p class="lede rv">Kreator builds high-end brand identities, custom websites and sustainable growth systems for digital nomads, adventure creators and remote founders. We don't build for the algorithm — we build digital homes for people who measure success in freedom, depth and time spent outside.</p>
+        <div class="hero-actions rv">
+          <a class="btn magnet" href="#cta" data-cursor><span>Book a discovery call</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="arrowlink" href="#work" data-cursor>See the work
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </div>
+      <div class="hero-meta rv">
+        <div class="row"><span class="label">Base</span><span>Worldwide / Remote</span></div>
+        <div class="row"><span class="label">Discipline</span><span>Identity · Web · Growth</span></div>
+        <div class="row"><span class="label">Model</span><span>Project + Retainer</span></div>
+        <div class="row"><span class="label">Status</span><span class="orange">Limited intake</span></div>
+      </div>
+    </div>
+
+    <div class="scrollcue rv">
+      <span class="track"><i></i></span>
+      <span class="label">Scroll to explore</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TICKER ================= -->
+<div class="ticker" id="ticker">
+  <div class="lane" id="lane">
+    <span>Crafted not generated</span><svg class="sep" aria-hidden="true"><use href="#n-pine"/></svg><span>High-end branding</span><svg class="sep" aria-hidden="true"><use href="#n-cloud"/></svg><span>Custom web</span><svg class="sep" aria-hidden="true"><use href="#n-sunset"/></svg><span>Growth systems</span><svg class="sep" aria-hidden="true"><use href="#n-stag"/></svg><span>Less hustle more life</span><svg class="sep" aria-hidden="true"><use href="#n-bird"/></svg>
+  </div>
+</div>
+
+<!-- ================= MANIFESTO ================= -->
+<section id="manifesto">
+  <div class="cloud c1"><svg viewBox="0 0 132 56" aria-hidden="true">
+  <g fill="currentColor" opacity=".30">
+    <circle cx="38" cy="26" r="15"/><circle cx="66" cy="20" r="20"/>
+    <circle cx="93" cy="28" r="13"/><rect x="23" y="26" width="83" height="15"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.1" opacity=".9">
+    <circle cx="38" cy="26" r="15"/><circle cx="66" cy="20" r="20"/>
+    <circle cx="93" cy="28" r="13"/><path d="M6 41h120"/>
+    <path d="M66 0v6M38 44v6M93 44v6"/>
+  </g>
+</svg></div>
+  <div class="cloud c2"><svg viewBox="0 0 132 56" aria-hidden="true">
+  <g fill="currentColor" opacity=".30">
+    <circle cx="38" cy="26" r="15"/><circle cx="66" cy="20" r="20"/>
+    <circle cx="93" cy="28" r="13"/><rect x="23" y="26" width="83" height="15"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.1" opacity=".9">
+    <circle cx="38" cy="26" r="15"/><circle cx="66" cy="20" r="20"/>
+    <circle cx="93" cy="28" r="13"/><path d="M6 41h120"/>
+    <path d="M66 0v6M38 44v6M93 44v6"/>
+  </g>
+</svg></div>
+  <div class="cloud c3"><svg viewBox="0 0 132 56" aria-hidden="true">
+  <g fill="currentColor" opacity=".30">
+    <circle cx="38" cy="26" r="15"/><circle cx="66" cy="20" r="20"/>
+    <circle cx="93" cy="28" r="13"/><rect x="23" y="26" width="83" height="15"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.1" opacity=".9">
+    <circle cx="38" cy="26" r="15"/><circle cx="66" cy="20" r="20"/>
+    <circle cx="93" cy="28" r="13"/><path d="M6 41h120"/>
+    <path d="M66 0v6M38 44v6M93 44v6"/>
+  </g>
+</svg></div>
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="eyebrow"><svg class="gi" aria-hidden="true"><use href="#n-sun"/></svg>Manifesto</span>
+        <h2 class="display mb" style="margin-top:.6rem">Stop chasing<br>the algorithm.</h2>
+      </div>
+      <span class="label">01 — Why we exist</span>
+    </div>
+
+    <div class="man-grid">
+      <p class="reveal-text" data-reveal-words>Most agencies want to keep you inside the hustle. Generic templates, automated content, metrics that matter only to machines. <hi>We build the opposite:</hi> quiet, rigorous, deeply crafted digital ecosystems for people who travel far, think slowly and refuse to compromise on quality.</p>
+      <div class="man-notes rv">
+        <p>Success isn't the hours you burn behind a screen. It's the freedom you keep, the depth of your impact, and the time you spend out in the wild.</p>
+        <p>Every project is led directly by a senior brand strategist — never handed to an account manager. A hand-picked guild of specialists assembles around your work, then dissolves.</p>
+        <a class="arrowlink" href="#partner" data-cursor>How we partner
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="ridge" aria-hidden="true"></div>
+
+<!-- ================= PARTNER ================= -->
+<section id="partner">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="eyebrow"><svg class="gi" aria-hidden="true"><use href="#n-mountain"/></svg>Capabilities</span>
+        <h2 class="display mb" style="margin-top:.6rem">How we partner.</h2>
+      </div>
+      <span class="label">02 — Two tracks. Zero friction.</span>
+    </div>
+
+    <div class="stack">
+      <article class="tcard rv" style="top:96px">
+        <div class="glow"></div>
+        <div class="no"><svg class="gi xl" aria-hidden="true"><use href="#n-mountain"/></svg><span style="display:block;margin-top:.9rem">Track 01 / One-time</span></div>
+        <div>
+          <span class="label">High-impact foundation</span>
+          <h3 class="display">The Foundation</h3>
+          <p class="lede">We lay the structural roots of your brand — from deep strategic discovery to a cinematic, custom-built site that converts without ever looking corporate.</p>
+        </div>
+        <ul>
+          <li><b>01</b>Strategic positioning, narrative &amp; tone of voice</li>
+          <li><b>02</b>Complete visual identity system &amp; art direction</li>
+          <li><b>03</b>Custom web design &amp; build — Webflow or Showit</li>
+          <li><b>04</b>Conversion-focused UX, motion &amp; performance pass</li>
+        </ul>
+      </article>
+
+      <article class="tcard rv" style="top:132px">
+        <div class="glow" style="background:rgba(243,239,233,.07)"></div>
+        <div class="no"><svg class="gi xl" aria-hidden="true"><use href="#n-river"/></svg><span style="display:block;margin-top:.9rem">Track 02 / Monthly</span></div>
+        <div>
+          <span class="label">Retainer · total peace of mind</span>
+          <h3 class="display">The Momentum</h3>
+          <p class="lede">Once the digital home is built, we keep the engine running quietly in the background while you're off-grid. Organic growth, clean content, ongoing care.</p>
+        </div>
+        <ul>
+          <li><b>01</b>Technical maintenance, speed &amp; uptime care</li>
+          <li><b>02</b>Content design, copywriting &amp; campaign creative</li>
+          <li><b>03</b>Organic promotion for sophisticated global audiences</li>
+          <li><b>04</b>Quarterly strategy review &amp; positioning tune-up</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROCESS (pinned) ================= -->
+<section id="process">
+  <div class="wrap pin-head">
+    <div class="sec-head rv">
+      <div>
+        <span class="eyebrow"><svg class="gi" aria-hidden="true"><use href="#n-pine"/></svg>Workflow</span>
+        <h2 class="display mb" style="margin-top:.6rem">Slow craft,<br>in three moves.</h2>
+      </div>
+      <span class="label">03 — Discovery · Craft · Momentum</span>
+    </div>
+  </div>
+  <div class="pinwrap" id="pinwrap">
+    <div class="wrap"><div class="ptrack mb" id="ptrack">
+      <article class="pcard">
+        <span class="big">01</span>
+        <div>
+          <svg class="gi lg" aria-hidden="true"><use href="#n-sunset"/></svg><br><span class="label orange">Step 01</span>
+          <h3 class="display">Discovery &amp; alignment</h3>
+          <p>An unhurried, deep-dive strategic audit: your story, your values, your audience, the life you actually want the business to fund.</p>
+        </div>
+        <ul><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Strategic narrative discovery</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Audience &amp; competitor mapping</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>System architecture blueprint</li></ul>
+      </article>
+      <article class="pcard">
+        <span class="big">02</span>
+        <div>
+          <svg class="gi lg" aria-hidden="true"><use href="#n-pine"/></svg><br><span class="label orange">Step 02</span>
+          <h3 class="display">Deep craft &amp; build</h3>
+          <p>No templates, no automated shortcuts. Bespoke identity, typography and a custom site engineered for speed and feel.</p>
+        </div>
+        <ul><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Custom visual identity system</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>High-end Webflow / Showit build</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Motion &amp; conversion-focused UX</li></ul>
+      </article>
+      <article class="pcard">
+        <span class="big">03</span>
+        <div>
+          <svg class="gi lg" aria-hidden="true"><use href="#n-bird"/></svg><br><span class="label orange">Step 03</span>
+          <h3 class="display">Launch &amp; momentum</h3>
+          <p>We deploy with zero friction, then carry the load — speed, content, organic growth — so you can disappear into the mountains guilt-free.</p>
+        </div>
+        <ul><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Seamless technical launch</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Ongoing maintenance &amp; speed care</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Organic promotion &amp; copy curation</li></ul>
+      </article>
+      <article class="pcard" style="background:linear-gradient(150deg,var(--ink-soft),var(--ink-card))">
+        <span class="big">04</span>
+        <div>
+          <svg class="gi lg" aria-hidden="true"><use href="#n-stag"/></svg><br><span class="label orange">Always</span>
+          <h3 class="display">One senior lead,<br>start to finish.</h3>
+          <p>You talk to the person doing the thinking. The guild forms around your project and dissolves when it ships — no bloat, no hand-offs.</p>
+        </div>
+        <a class="btn magnet" href="#cta" data-cursor><span>Start a project</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+    </div></div>
+  </div>
+</section>
+
+<!-- ================= WORK ================= -->
+<section id="work">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="eyebrow"><svg class="gi" aria-hidden="true"><use href="#n-cloud"/></svg>Selected work</span>
+        <h2 class="display mb" style="margin-top:.6rem">Proof in the wild.</h2>
+      </div>
+      <span class="label">04 — Four case studies</span>
+    </div>
+
+    <div class="workgrid">
+      <a class="case rv" href="#work/meridian" data-cursor>
+        <div class="shot"><span class="tag">01 / Meridian</span><img class="mb" src="assets/img/work-meridian.jpg" alt="Project Meridian"></div>
+        <div class="body">
+          <div><h3 class="display">Project Meridian</h3>
+            <p>Strategic positioning, identity system and custom web design for a modern adventure-film collective.</p></div>
+          <div class="foot"><span>Branding · Web</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg></div>
+        </div>
+      </a>
+      <a class="case rv" href="#work/collective" data-cursor>
+        <div class="shot"><span class="tag">02 / Collective</span><img class="mb" src="assets/img/work-collective.jpg" alt="Off-Grid Collective"></div>
+        <div class="body">
+          <div><h3 class="display">Off-Grid Collective</h3>
+            <p>A quiet, high-performance digital ecosystem for a global network of remote founders and builders.</p></div>
+          <div class="foot"><span>Ecosystem · Retainer</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg></div>
+        </div>
+      </a>
+      <a class="case rv" href="#work/terra" data-cursor>
+        <div class="shot"><span class="tag">03 / Terra Alta</span><img class="mb" src="assets/img/work-terra.jpg" alt="Terra Alta Studio"></div>
+        <div class="body">
+          <div><h3 class="display">Terra Alta Studio</h3>
+            <p>Bespoke identity and story-driven web presence for high-end sustainable architecture and living spaces.</p></div>
+          <div class="foot"><span>Identity · Art direction</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg></div>
+        </div>
+      </a>
+      <a class="case rv" href="#work/wildland" data-cursor>
+        <div class="shot"><span class="tag">04 / Wildland</span><img class="mb" src="assets/img/work-wildland.jpg" alt="Wildland Sanctuary"></div>
+        <div class="body">
+          <div><h3 class="display">Wildland Sanctuary</h3>
+            <p>Editorial brand identity, motion design and a high-conversion booking architecture for off-grid eco-retreats.</p></div>
+          <div class="foot"><span>Identity · Custom web</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg></div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="ridge tight" aria-hidden="true"></div>
+
+<!-- ================= GUILD ================= -->
+<section id="guild">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="eyebrow"><svg class="gi" aria-hidden="true"><use href="#n-stag"/></svg>Agile structure</span>
+        <h2 class="display mb" style="margin-top:.6rem">A guild, not<br>an agency.</h2>
+      </div>
+      <span class="label">05 — The people who do the work</span>
+    </div>
+
+    <p class="lede rv" style="margin-bottom:clamp(2rem,4vw,3rem)">You are never handed off to a junior account manager. Three senior partners carry the core of every project, and trusted specialists join for the parts that need them — then step back out.</p>
+
+    <div class="team">
+      <div class="person rv">
+        <div class="shot">
+          <img src="assets/img/team-catalin.jpg" alt="Cătălin Dobrean">
+          <span class="badge"><svg aria-hidden="true"><use href="#n-stag"/></svg></span>
+          <span class="mono-tile">CD</span>
+        </div>
+        <div class="info">
+          <span class="role">Brand &amp; product</span>
+          <h3 class="display">Cătălin Dobrean</h3>
+          <span class="label">Sr. Brand Designer &amp; Product Architect</span>
+          <p>Leads every engagement end to end — positioning, identity systems and the architecture of the site or product. The person you talk to is the person doing the thinking.</p>
+        </div>
+      </div>
+      <div class="person rv">
+        <div class="shot">
+          <img src="assets/img/team-andrei.jpg" alt="Andrei Kalman">
+          <span class="badge"><svg aria-hidden="true"><use href="#n-bird"/></svg></span>
+          <span class="mono-tile">AK</span>
+        </div>
+        <div class="info">
+          <span class="role">Content &amp; copy</span>
+          <h3 class="display">Andrei Kalman</h3>
+          <span class="label">Content &amp; Copy Creative Writer</span>
+          <p>Turns strategy into language — narrative, tone of voice, site and campaign copy that carries weight in sophisticated Western markets.</p>
+        </div>
+      </div>
+      <div class="person rv">
+        <div class="shot">
+          <img src="assets/img/team-robert.jpg" alt="Robert Roman">
+          <span class="badge"><svg aria-hidden="true"><use href="#n-wolf"/></svg></span>
+          <span class="mono-tile">RR</span>
+        </div>
+        <div class="info">
+          <span class="role">Engineering</span>
+          <h3 class="display">Robert Roman</h3>
+          <span class="label">Software &amp; Web Developer</span>
+          <p>Builds it properly: clean front-end, sub-second loads and restrained motion, on Webflow, Showit or fully custom.</p>
+        </div>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat rv"><b data-count="3">0</b><span>Senior partners</span></div>
+      <div class="stat rv"><b data-count="0">0</b><span>Account managers</span></div>
+      <div class="stat rv"><b data-count="100" data-suffix="%">0</b><span>Custom, never templated</span></div>
+      <div class="stat rv"><b data-count="6" data-suffix=" / yr">0</b><span>Foundation projects taken</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section id="cta">
+  <div class="wrap">
+    <div class="cta-grid">
+      <div>
+        <span class="eyebrow rv"><svg class="gi" aria-hidden="true"><use href="#n-bird"/></svg>Limited intake</span>
+        <h2 class="display mb rv" style="margin-top:.8rem">Let's build<br>something quiet<br>and powerful.</h2>
+        <p class="lede rv" style="margin-top:1.6rem">We take on a strictly limited number of Foundation projects each quarter, so every one gets full depth and attention. Tell us where you're headed.</p>
+        <div class="hero-actions rv">
+          <a class="btn ink magnet" href="https://wa.me/40720570232" target="_blank" rel="noopener" data-cursor>
+            <span>Book a discovery call</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </div>
+      <div class="ctalist rv">
+        <a href="https://wa.me/40720570232" target="_blank" rel="noopener" data-cursor><span>WhatsApp — direct line</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+        <div style="display:flex;justify-content:space-between;gap:1rem;padding:.65rem 0;border-bottom:1px solid rgba(16,23,31,.14);font-family:var(--mono);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase">
+          <span>Availability</span><span>Two slots this quarter</span></div>
+        <div style="display:flex;justify-content:space-between;gap:1rem;padding:.65rem 0;border-bottom:1px solid rgba(16,23,31,.14);font-family:var(--mono);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase">
+          <span>Base</span><span>Worldwide / Remote</span></div>
+        <div style="display:flex;justify-content:space-between;gap:1rem;padding:.65rem 0;font-family:var(--mono);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase">
+          <span>Reply within</span><span>Two working days</span></div>
+    </div>
+    <div class="deco deco-cta"><svg viewBox="0 0 520 300" fill="none" aria-hidden="true">
+  <path d="M70 220a190 190 0 0 1 380 0z" fill="currentColor" opacity=".13"/>
+  <g stroke="currentColor" stroke-width="2" opacity=".18">
+    <path d="M0 220h40M70 220h60M160 220h80M270 220h70M370 220h60M470 220h50"/>
+    <path d="M260 10v42M110 62l30 30M410 62l-30 30"/>
+  </g>
+  <g fill="currentColor" opacity=".16"><path d="M40.0 180.0L47.6 198.0H32.4ZM40.0 191.2L52.2 209.2H27.8ZM40.0 202.4L56.8 220.4H23.2ZM38.5 217.6h3v5.4h-3z"/><path d="M66.0 194.0L70.9 205.7H61.1ZM66.0 201.3L73.9 213.0H58.1ZM66.0 208.6L76.9 220.3H55.1ZM64.5 218.4h3v4.6h-3z"/><path d="M452.0 186.0L458.4 201.3H445.6ZM452.0 195.5L462.4 210.8H441.6ZM452.0 205.0L466.3 220.3H437.7ZM450.5 218.0h3v5.0h-3z"/><path d="M482.0 198.0L486.2 207.9H477.8ZM482.0 204.2L488.7 214.1H475.3ZM482.0 210.3L491.2 220.2H472.8ZM480.5 218.7h3v4.3h-3z"/></g>
+</svg></div>
+    <svg class="ctamark mb rv" viewBox="0 0 1916 424"><use href="#kreator"/></svg>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div style="max-width:34ch">
+        <span class="label">Kreator — slow-craft digital studio</span>
+        <p style="margin-top:1rem;font-size:.92rem;color:var(--slate);font-weight:300">Digital ecosystems for those who live wild and work free. Built with rigour, delivered without the noise.</p>
+      </div>
+      <div class="fcols">
+        <div class="fcol"><span class="label">Studio</span>
+          <a href="#manifesto" data-cursor>Manifesto</a><a href="#guild" data-cursor>The guild</a><a href="#process" data-cursor>Process</a></div>
+        <div class="fcol"><span class="label">Work</span>
+          <a href="#work" data-cursor>Case studies</a><a href="#partner" data-cursor>Foundation</a><a href="#partner" data-cursor>Momentum</a></div>
+        <div class="fcol"><span class="label">Contact</span>
+          <a href="https://wa.me/40720570232" target="_blank" rel="noopener" data-cursor>WhatsApp</a><a href="#cta" data-cursor>Start a project</a></div>
+      </div>
+    </div>
+    <div class="fbottom">
+      <span>© 2026 Kreator. For those who live wild and work free.</span>
+      <span>Crafted, not generated.</span>
+    </div>
+  </div>
+</footer>
+</div><!-- /#home -->
+
+<div id="cases">
+<article class="cpage" id="case-meridian" hidden>
+  <header class="chero">
+    <img class="cbg mb" src="assets/img/case-meridian-hero.jpg" alt="">
+    <div class="cveil"></div>
+    <div class="wrap in">
+      <a class="backlink anim" href="#work" data-cursor><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M11 6l-6 6 6 6"/></svg> All work</a>
+      <div>
+        <span class="ctag anim a2"><svg class="gi" aria-hidden="true"><use href="#n-mountain"/></svg>Concept study — 01</span>
+        <h1 class="display anim a2">Project Meridian</h1>
+        <p class="lede anim a3">A four-person adventure-film collective with festival-grade work and a brand that looked like a free template. We built the identity and the site that let them pitch outdoor brands instead of chasing them.</p>
+        <div class="cmeta anim a4"><div><span>Client</span><span>Adventure-film collective</span></div><div><span>Year</span><span>2025</span></div><div><span>Engagement</span><span>Foundation + Momentum</span></div><div><span>Build</span><span>Webflow</span></div></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="cbody">
+    <div>
+      <div class="blk">
+        <span class="eyebrow">The brief</span>
+        <h2 style="margin-top:.7rem">What they came with</h2>
+        <p>Meridian shoots in high alpine terrain — long approaches, bad weather, patient footage. The reel was landing festival slots, but everything around it was borrowed: a stock wordmark, four different colour treatments across four platforms, and a Vimeo link doing the work of a portfolio.</p><p>The problem was never quality. It was that nothing in their brand signalled the standard of the work, so every commercial conversation started from zero.</p>
+      </div>
+      <div class="blk">
+        <span class="eyebrow">The work</span>
+        <h2 style="margin-top:.7rem">What we made</h2>
+        <p>A wordmark drawn from surveying and topographic marks — a language the crew already lived inside — with a fixed duotone grade that every still and frame is pushed through, so the body of work reads as one body of work.</p><p>The site is a single scroll: the reel plays full-bleed at the top, then each project opens as field notes — altitude, conditions, crew, kit — before it shows a single frame. It reads like the people who made it, not like a portfolio theme.</p>
+      </div>
+      <div class="blk"><p class="cquote">The reel was already good enough. The job was to stop the brand undercutting it.</p></div>
+    </div>
+    <aside class="cside">
+      <div>
+        <span class="eyebrow">Scope</span>
+        <ul style="margin-top:1rem"><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Wordmark, monogram and topographic mark set</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Duotone grading recipe for stills and video</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Art direction guide for shoots</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Single-scroll site with full-bleed reel</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Field-notes project template</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Pitch one-pager for brand enquiries</li></ul>
+      </div>
+      <div>
+        <span class="eyebrow">Services</span>
+        <p style="margin-top:.8rem;font-size:.9rem">Positioning · Identity · Web</p>
+      </div>
+    </aside>
+  </section>
+
+  <section class="cshots"><figure><img class="mb" src="assets/img/case-meridian-a.jpg" alt="Grade study — dawn ridge, duotone pass 03"><figcaption>Grade study — dawn ridge, duotone pass 03</figcaption></figure><figure><img class="mb" src="assets/img/case-meridian-b.jpg" alt="Frame test — long-exposure, low light"><figcaption>Frame test — long-exposure, low light</figcaption></figure></section>
+
+  <section class="csystem">
+    <div>
+      <span class="eyebrow">Palette</span>
+      <div class="swatches" style="margin-top:1.1rem"><div class="swatch" style="background:#0B1015;color:#F3EFE9">Base<br>#0B1015</div><div class="swatch" style="background:#2A3440;color:#F3EFE9">Slate<br>#2A3440</div><div class="swatch" style="background:#EB4C03;color:#F3EFE9">Signal<br>#EB4C03</div><div class="swatch" style="background:#C9B79A;color:#0B1015">Dust<br>#C9B79A</div><div class="swatch" style="background:#F3EFE9;color:#0B1015">Paper<br>#F3EFE9</div></div>
+    </div>
+    <div>
+      <span class="eyebrow">Delivered</span>
+      <div class="deliver" style="margin-top:1.1rem"><div><span>Positioning and narrative platform</span><span>Discovery</span></div><div><span>Identity system and mark set</span><span>Craft</span></div><div><span>Art direction and grading guide</span><span>Craft</span></div><div><span>Webflow build, single scroll</span><span>Build</span></div><div><span>Ongoing edit and content care</span><span>Momentum</span></div></div>
+    </div>
+  </section>
+
+  <p class="cnote">These case studies are concept work, made to show how Kreator thinks. Live client
+    projects replace them as they ship.</p>
+
+  <div class="cnext">
+    <a href="#work/collective" data-cursor>
+      <span class="label">Next project — 02</span>
+      <strong>Off-Grid Collective</strong>
+      <span class="arrowlink">View case <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+    </a>
+  </div>
+</article>
+
+
+<article class="cpage" id="case-collective" hidden>
+  <header class="chero">
+    <img class="cbg mb" src="assets/img/case-collective-hero.jpg" alt="">
+    <div class="cveil"></div>
+    <div class="wrap in">
+      <a class="backlink anim" href="#work" data-cursor><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M11 6l-6 6 6 6"/></svg> All work</a>
+      <div>
+        <span class="ctag anim a2"><svg class="gi" aria-hidden="true"><use href="#n-bird"/></svg>Concept study — 02</span>
+        <h1 class="display anim a2">Off-Grid Collective</h1>
+        <p class="lede anim a3">A private network of remote founders run out of a Notion page and a Slack invite. We gave it an ecosystem quiet enough to feel exclusive and structured enough to grow.</p>
+        <div class="cmeta anim a4"><div><span>Client</span><span>Private founder network</span></div><div><span>Year</span><span>2025</span></div><div><span>Engagement</span><span>Foundation + Momentum</span></div><div><span>Build</span><span>Webflow + member area</span></div></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="cbody">
+    <div>
+      <div class="blk">
+        <span class="eyebrow">The brief</span>
+        <h2 style="margin-top:.7rem">What they came with</h2>
+        <p>Around three hundred founders, spread across fourteen time zones, held together by a shared doc and goodwill. Every new member arrived through a forwarded link and a personal vouch, which worked beautifully and did not scale at all.</p><p>They wanted to double without becoming another loud community brand — no cohort language, no countdown timers, no growth-hacking sheen.</p>
+      </div>
+      <div class="blk">
+        <span class="eyebrow">The work</span>
+        <h2 style="margin-top:.7rem">What we made</h2>
+        <p>A restrained identity built on a constellation motif: individual points, real distance between them, connections that only appear when you look. It carries the idea of the network without ever drawing an actual network diagram twice.</p><p>The ecosystem is three surfaces on one system — a public page that explains almost nothing on purpose, an application that reads as an invitation rather than a form, and a member area with a directory, a quiet events rail and a fortnightly letter.</p>
+      </div>
+      <div class="blk"><p class="cquote">Exclusivity is a design problem. Say less, and mean all of it.</p></div>
+    </div>
+    <aside class="cside">
+      <div>
+        <span class="eyebrow">Scope</span>
+        <ul style="margin-top:1rem"><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Identity and constellation mark system</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Public page and application flow</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Member directory and profile structure</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Fortnightly letter template</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Tone of voice guide for the community team</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Monthly retainer: content and care</li></ul>
+      </div>
+      <div>
+        <span class="eyebrow">Services</span>
+        <p style="margin-top:.8rem;font-size:.9rem">Ecosystem · Membership · Retainer</p>
+      </div>
+    </aside>
+  </section>
+
+  <section class="cshots"><figure><img class="mb" src="assets/img/case-collective-a.jpg" alt="Contour study — density map of member locations"><figcaption>Contour study — density map of member locations</figcaption></figure><figure><img class="mb" src="assets/img/case-collective-b.jpg" alt="Structure test — directory grid at three widths"><figcaption>Structure test — directory grid at three widths</figcaption></figure></section>
+
+  <section class="csystem">
+    <div>
+      <span class="eyebrow">Palette</span>
+      <div class="swatches" style="margin-top:1.1rem"><div class="swatch" style="background:#080C11;color:#F3EFE9">Void<br>#080C11</div><div class="swatch" style="background:#1B2430;color:#F3EFE9">Deep<br>#1B2430</div><div class="swatch" style="background:#EB4C03;color:#F3EFE9">Signal<br>#EB4C03</div><div class="swatch" style="background:#6E7B8A;color:#0B1015">Steel<br>#6E7B8A</div><div class="swatch" style="background:#EDEAE4;color:#0B1015">Bone<br>#EDEAE4</div></div>
+    </div>
+    <div>
+      <span class="eyebrow">Delivered</span>
+      <div class="deliver" style="margin-top:1.1rem"><div><span>Positioning and membership proposition</span><span>Discovery</span></div><div><span>Identity and mark system</span><span>Craft</span></div><div><span>Application and onboarding flow</span><span>Craft</span></div><div><span>Public site and member area build</span><span>Build</span></div><div><span>Letter, events and directory upkeep</span><span>Momentum</span></div></div>
+    </div>
+  </section>
+
+  <p class="cnote">These case studies are concept work, made to show how Kreator thinks. Live client
+    projects replace them as they ship.</p>
+
+  <div class="cnext">
+    <a href="#work/terra" data-cursor>
+      <span class="label">Next project — 03</span>
+      <strong>Terra Alta Studio</strong>
+      <span class="arrowlink">View case <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+    </a>
+  </div>
+</article>
+
+
+<article class="cpage" id="case-terra" hidden>
+  <header class="chero">
+    <img class="cbg mb" src="assets/img/case-terra-hero.jpg" alt="">
+    <div class="cveil"></div>
+    <div class="wrap in">
+      <a class="backlink anim" href="#work" data-cursor><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M11 6l-6 6 6 6"/></svg> All work</a>
+      <div>
+        <span class="ctag anim a2"><svg class="gi" aria-hidden="true"><use href="#n-pine"/></svg>Concept study — 03</span>
+        <h1 class="display anim a2">Terra Alta Studio</h1>
+        <p class="lede anim a3">An architecture studio building low-impact houses in the Carpathians, with a portfolio trapped in PDFs. We gave the work the editorial treatment it already deserved.</p>
+        <div class="cmeta anim a4"><div><span>Client</span><span>Architecture studio</span></div><div><span>Year</span><span>2026</span></div><div><span>Engagement</span><span>Foundation</span></div><div><span>Build</span><span>Webflow</span></div></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="cbody">
+    <div>
+      <div class="blk">
+        <span class="eyebrow">The brief</span>
+        <h2 style="margin-top:.7rem">What they came with</h2>
+        <p>Terra Alta had eleven finished houses, a decade of drawings and a site that reduced all of it to three thumbnails and a contact form. Clients were arriving through word of mouth and then being asked to imagine the rest.</p><p>The studio also had a genuine constraint most practices only claim: every house is built from what the site and the region can give it. That needed to be structural in the brand, not a sustainability badge in the footer.</p>
+      </div>
+      <div class="blk">
+        <span class="eyebrow">The work</span>
+        <h2 style="margin-top:.7rem">What we made</h2>
+        <p>An architectural type scale — one measure, held everywhere — and a layout system where drawings and photography carry equal weight. Plans and sections are not supporting material here; they open the project.</p><p>Each house gets an editorial page with a materials index: what it is made of, where each material came from, how far it travelled. The constraint became the most interesting page on the site.</p>
+      </div>
+      <div class="blk"><p class="cquote">If the constraint is real, put it in the layout — not in a badge.</p></div>
+    </div>
+    <aside class="cside">
+      <div>
+        <span class="eyebrow">Scope</span>
+        <ul style="margin-top:1rem"><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Identity and architectural type scale</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Editorial project page system</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Materials index structure</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Photography and drawing art direction</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Webflow build with CMS for houses</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Print one-pager for site visits</li></ul>
+      </div>
+      <div>
+        <span class="eyebrow">Services</span>
+        <p style="margin-top:.8rem;font-size:.9rem">Identity · Art direction · Web</p>
+      </div>
+    </aside>
+  </section>
+
+  <section class="cshots"><figure><img class="mb" src="assets/img/case-terra-a.jpg" alt="Volume study — massing rhythm, west elevation"><figcaption>Volume study — massing rhythm, west elevation</figcaption></figure><figure><img class="mb" src="assets/img/case-terra-b.jpg" alt="Light study — interior, late afternoon"><figcaption>Light study — interior, late afternoon</figcaption></figure></section>
+
+  <section class="csystem">
+    <div>
+      <span class="eyebrow">Palette</span>
+      <div class="swatches" style="margin-top:1.1rem"><div class="swatch" style="background:#12100E;color:#F3EFE9">Char<br>#12100E</div><div class="swatch" style="background:#3A2E25;color:#F3EFE9">Timber<br>#3A2E25</div><div class="swatch" style="background:#E4571E;color:#F3EFE9">Ember<br>#E4571E</div><div class="swatch" style="background:#B79E7E;color:#0B1015">Clay<br>#B79E7E</div><div class="swatch" style="background:#F1ECE3;color:#0B1015">Lime<br>#F1ECE3</div></div>
+    </div>
+    <div>
+      <span class="eyebrow">Delivered</span>
+      <div class="deliver" style="margin-top:1.1rem"><div><span>Positioning and studio narrative</span><span>Discovery</span></div><div><span>Identity and editorial type system</span><span>Craft</span></div><div><span>Project page and materials index design</span><span>Craft</span></div><div><span>Webflow build with house CMS</span><span>Build</span></div><div><span>Handover, training and documentation</span><span>Build</span></div></div>
+    </div>
+  </section>
+
+  <p class="cnote">These case studies are concept work, made to show how Kreator thinks. Live client
+    projects replace them as they ship.</p>
+
+  <div class="cnext">
+    <a href="#work/wildland" data-cursor>
+      <span class="label">Next project — 04</span>
+      <strong>Wildland Sanctuary</strong>
+      <span class="arrowlink">View case <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+    </a>
+  </div>
+</article>
+
+
+<article class="cpage" id="case-wildland" hidden>
+  <header class="chero">
+    <img class="cbg mb" src="assets/img/case-wildland-hero.jpg" alt="">
+    <div class="cveil"></div>
+    <div class="wrap in">
+      <a class="backlink anim" href="#work" data-cursor><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M11 6l-6 6 6 6"/></svg> All work</a>
+      <div>
+        <span class="ctag anim a2"><svg class="gi" aria-hidden="true"><use href="#n-bear"/></svg>Concept study — 04</span>
+        <h1 class="display anim a2">Wildland Sanctuary</h1>
+        <p class="lede anim a3">Three off-grid cabins, a wood-fired sauna and a waiting list living in a spreadsheet. We built the brand and the booking flow that turned interest into nights.</p>
+        <div class="cmeta anim a4"><div><span>Client</span><span>Off-grid retreat</span></div><div><span>Year</span><span>2026</span></div><div><span>Engagement</span><span>Foundation + Momentum</span></div><div><span>Build</span><span>Showit + booking</span></div></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="cbody">
+    <div>
+      <div class="blk">
+        <span class="eyebrow">The brief</span>
+        <h2 style="margin-top:.7rem">What they came with</h2>
+        <p>Guests were finding Wildland through a friend or a saved post, then emailing to ask if a weekend in October was free. Someone answered those emails by hand, sometimes two days later. Most people did not wait.</p><p>The place itself does the selling — fog in the valley at six in the morning, no signal, a stove you have to feed. None of that survived the trip to the website.</p>
+      </div>
+      <div class="blk">
+        <span class="eyebrow">The work</span>
+        <h2 style="margin-top:.7rem">What we made</h2>
+        <p>A brand rooted in the site rather than the category: seasonal art direction with four distinct grades, a mark that reads as both a ridge and a roofline, and copy written in the register of someone who actually lives there.</p><p>Booking takes three taps — dates, cabin, confirm — with live availability and a deposit held at the first step. The waiting list moved out of the spreadsheet and into something that answers instantly at two in the morning.</p>
+      </div>
+      <div class="blk"><p class="cquote">The place was never the problem. The two-day reply was.</p></div>
+    </div>
+    <aside class="cside">
+      <div>
+        <span class="eyebrow">Scope</span>
+        <ul style="margin-top:1rem"><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Identity, ridge mark and seasonal grades</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Photography and motion art direction</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Three-step booking flow design</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Showit build with live availability</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Guest email and pre-arrival sequence</li><li><svg class="bul" aria-hidden="true"><use href="#n-pine"/></svg>Seasonal content retainer</li></ul>
+      </div>
+      <div>
+        <span class="eyebrow">Services</span>
+        <p style="margin-top:.8rem;font-size:.9rem">Identity · Motion · Booking</p>
+      </div>
+    </aside>
+  </section>
+
+  <section class="cshots"><figure><img class="mb" src="assets/img/case-wildland-a.jpg" alt="Season study — autumn canopy, morning fog"><figcaption>Season study — autumn canopy, morning fog</figcaption></figure><figure><img class="mb" src="assets/img/case-wildland-b.jpg" alt="Atmosphere test — valley mist, blue hour"><figcaption>Atmosphere test — valley mist, blue hour</figcaption></figure></section>
+
+  <section class="csystem">
+    <div>
+      <span class="eyebrow">Palette</span>
+      <div class="swatches" style="margin-top:1.1rem"><div class="swatch" style="background:#0A0F0C;color:#F3EFE9">Peat<br>#0A0F0C</div><div class="swatch" style="background:#1E2A22;color:#F3EFE9">Moss<br>#1E2A22</div><div class="swatch" style="background:#E9540C;color:#F3EFE9">Ember<br>#E9540C</div><div class="swatch" style="background:#8FA08F;color:#0B1015">Lichen<br>#8FA08F</div><div class="swatch" style="background:#F0EDE6;color:#0B1015">Ash<br>#F0EDE6</div></div>
+    </div>
+    <div>
+      <span class="eyebrow">Delivered</span>
+      <div class="deliver" style="margin-top:1.1rem"><div><span>Positioning and guest narrative</span><span>Discovery</span></div><div><span>Identity and seasonal art direction</span><span>Craft</span></div><div><span>Booking flow design and copy</span><span>Craft</span></div><div><span>Showit build with live availability</span><span>Build</span></div><div><span>Seasonal content and campaign care</span><span>Momentum</span></div></div>
+    </div>
+  </section>
+
+  <p class="cnote">These case studies are concept work, made to show how Kreator thinks. Live client
+    projects replace them as they ship.</p>
+
+  <div class="cnext">
+    <a href="#work/meridian" data-cursor>
+      <span class="label">Next project — 01</span>
+      <strong>Project Meridian</strong>
+      <span class="arrowlink">View case <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+    </a>
+  </div>
+</article>
+</div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

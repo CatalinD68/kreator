@@ -1,0 +1,19 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node (only used for local preview / screenshots)
+node_modules/
+package-lock.json
+
+# Local scratch
+/tmp/
+*.local.html
